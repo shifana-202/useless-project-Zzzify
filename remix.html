@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zzzify - Remix Your Snore</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .options-container {
+      position: fixed;
+      bottom: 60px;
+      left: 0;
+      right: 0;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    .option-button {
+      background-color: #1DB954;
+      border: none;
+      color: white;
+      padding: 12px 18px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .option-button:hover {
+      background-color: #17a84b;
+    }
+
+    .next-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: white;
+      color: #1DB954;
+      border: none;
+      padding: 10px 16px;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .next-button:hover {
+      background-color: #1DB954;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Remix Your Snore</h1>
+  <p>Select how you want to remix your snore:</p>
+
+  <div class="options-container">
+    <button class="option-button">🎧 DJ Mode</button>
+    <button class="option-button">🎻 Classical</button>
+    <button class="option-button">📢 Ringtone</button>
+    <button class="option-button">🔁 Reverse</button>
+    <button class="option-button">😂 Funny Mode</button>
+  </div>
+
+  <button class="next-button" onclick="window.location.href='result.html'">Next ➡️</button>
+
+</body>
+</html>
